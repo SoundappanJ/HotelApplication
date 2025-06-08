@@ -11,10 +11,10 @@
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <testng.version>6.8</testng.version>
         <selenium.version>3.141.59</selenium.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <webdrivermanager.version>5.7.0</webdrivermanager.version>
+        <testng.version>7.11.0</testng.version>
 
     </properties>
 
@@ -48,12 +48,7 @@
             <artifactId>webdrivermanager</artifactId>
             <version>${webdrivermanager.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.11.0</version>
-            <scope>compile</scope>
-        </dependency>
+
         <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
